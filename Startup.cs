@@ -29,7 +29,7 @@ namespace CodeNest.Simple.NETWebProject
         {
             services.AddDbContext<ApplicationDbContext>(
                options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddRouting(options=>options.LowercaseUrls=true);
+            services.AddRouting(options => options.LowercaseUrls = true);
             services.AddSwaggerGen();
             services.AddControllers();
         }
@@ -51,7 +51,7 @@ namespace CodeNest.Simple.NETWebProject
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Movies API");
-                c.RoutePrefix=string.Empty;
+                c.RoutePrefix = string.Empty;
             });
 
 
