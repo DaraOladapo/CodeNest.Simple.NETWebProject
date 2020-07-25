@@ -1,9 +1,28 @@
-# CodeNest.Simple.NETWebProject
+# A simple NET Web Project
 
-## Project
-A simple ASP.NET Core Web Application to explain some of the building blocks of ASP.NET
-A movie catalog application
+## Agenda
+
+We'll be working on a simple ASP&#46;NET Core Web Application to explain some of the building blocks of ASP&#46;NET
+
 We'll treat the following:
-- CRUD Operations
+
+- Models (View Models, Binding Models, Data Models)
 - Entity Framework
 - Database Migrations
+- CRUD Operations
+- Dependency Injection
+- Routes
+- API Documentation with Swagger
+- Configuraions in ASP&#46;NET Core
+- Using Packages
+
+## Project
+
+A movies directory application.
+
+- Add movie
+- Delete movie
+- Rate Movie
+- Edit movie
+- View all movies
+- View details of a specific movie
