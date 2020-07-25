@@ -22,7 +22,15 @@ A movies directory application.
 
 - Add movie
 - Delete movie
-- Rate Movie
 - Edit movie
 - View all movies
 - View details of a specific movie
+
+## Apps and Tools
+
+Tool|Purpose
+--|--
+Visual Studio Code | Code Editor
+Postman | API Client
+SQL Server Developer | Database
+Azure Data Studio | Database Client
